@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'obituaries/css/style.css' %}">
+</head>
+<body>
+    <h1>Welcome to the Obituary Management Platform</h1>
+    <nav>
+        <ul>
+            <li><a href="{% url 'submit_obituary' %}">Submit Obituary</a></li>
+            <li><a href="{% url 'view_obituaries' %}">View Obituaries</a></li>
+        </ul>
+    </nav>
+</body>
+</
